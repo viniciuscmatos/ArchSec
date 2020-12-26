@@ -1,0 +1,31 @@
+.cardclientes{
+  margin: 0em 1.5em 1em 1.5em;
+  background-color:white;
+  max-width: 30%;
+  overflow: hidden;
+}
+
+.cardclientes:hover{
+  cursor: pointer;
+}
+
+.cardclientes-logo-div{
+  max-height: 60%;
+  overflow: hidden;
+}
+.cardclientes-logo{
+  width: 100%;
+  transition: transform .7s ease;
+}
+
+.cardclientes-logo:hover {
+  transform: scale(1.12);
+}
+
+.cardclientes-nome{
+  padding: 0em 0.8em 0em 0.8em ;
+}
+
+.cardclientes-case {
+  padding: 0em 0.8em 0.8em 0.8em ;
+}

@@ -1,0 +1,118 @@
+.body-servicos{
+  background-color: #f9f9f9;
+}
+
+.div-segmentos_titulo{
+  font-size: 3em;
+  margin-top: 160px;
+}
+.div-segmentos {
+  display: flex;
+  justify-content: center;
+}
+
+.servicos{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+}
+
+.servico1 {
+  background:
+  linear-gradient(
+    rgba(0,0,0,.4),rgba(0,0,0,.4)
+  ),
+  url("./../../img/governo.jpg");
+  background-repeat: repeat;
+  width: 32%;
+  height: 600px;
+  transition: 0.8s ease-in-out;
+}
+
+.servico1:hover{
+  background-position: top;
+}
+
+.servico-titulo{
+  color: #f9f9f9;
+  font-size: 2.5em;
+  padding: 5% 0 0 5%;
+  margin-top: 0;
+  padding-bottom: 3em;
+}
+
+.servico-descricao {
+  color: #f9f9f9;
+  font-size: 1.5em;
+  padding: 2.5% 0 30% 5%; }
+
+.servico2 {
+  background:
+  linear-gradient(
+    rgba(0,0,0,.4),rgba(0,0,0,.4)
+  ),
+  url("./../../img/nuclear.jpg") center;
+  width: 32%;
+  height: 600px;
+  transition: 0.8s ease-in-out;
+}
+
+.servico2:hover{
+  background-position: left;
+}
+
+.servico3 {
+  background:
+  linear-gradient(
+    rgba(0,0,0,.4),rgba(0,0,0,.4)
+  ),
+  url("./../../img/empresa.jpg") center;
+  width: 32%;
+  height: 600px;
+  transition: 0.8s ease-in-out;
+}
+
+.servico3:hover{
+  background-position: right;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.div-video{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.div-video_titulo{
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 3;
+  border-bottom: #ff6810 solid 4px;
+}
+
+.div-video_plus{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  z-index: 3;
+  
+}
+
+.video{
+  opacity: .59;
+  left: 0;
+  height: 110%;
+  -webkit-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+  opacity: 0.3;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}

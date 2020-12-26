@@ -1,0 +1,43 @@
+.main-login{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+.card-login{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.titulo-login{
+    display: flex;
+    justify-content: center;
+}
+
+.div-login-input{
+    margin: 2% 10% 2% 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-input{
+    padding: 1em;
+    width: 90%;
+    border: 0;
+    border: 1px solid #888e8e;
+    border-radius: 2em;
+    outline: none;
+}
+
+.login-input:hover{
+    border: 1px solid #ff7c31;
+}
+
+.div-botao-login{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,6 @@
+.painel-main{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}

@@ -1,0 +1,32 @@
+.main-lista{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-left: 1px solid #f9f9f9;
+}
+
+.card-lista{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+    background-color: rgb(50, 50, 50);
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.table-apts{
+    color: white;
+    border-top: solid 2px #ff7c31;
+    padding: 1em 0 1em 1em;
+}
+
+.head-tabela{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.linha-tabela{
+    padding-top: 0.5em;
+}

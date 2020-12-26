@@ -1,0 +1,43 @@
+.painel-menu{
+    background-color: rgb(50, 50, 50);
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.painel-menu_lista{
+    padding: 0;
+}
+.painel-menu-nav{
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1em;
+    background-color: rgb(50, 50, 50);
+    color:  #f9f9f9;
+    list-style: none;
+    padding: 1em 0 1em;
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+.painel-menu-nav:hover{
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.div-icon{
+    padding: 0 1em 0 1em;
+}
+
+.painel-menu_div-logo{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-delta{
+    width: 40%;
+}

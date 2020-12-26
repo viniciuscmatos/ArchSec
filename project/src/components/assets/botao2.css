@@ -1,0 +1,17 @@
+.botao2 {
+  background: transparent;
+  border-radius: 70px;
+  border: solid 3px rgb(50, 50, 50);
+  color: rgb(50, 50, 50);
+  font-size: 1.4em;
+  height: 2.5em;
+  margin: 3%;
+  cursor: pointer;
+  width: 26%;
+  text-transform: uppercase;
+  outline: none; }
+
+.botao2:hover {
+  background: white;
+  transition: ease-in-out 0.2s;
+}

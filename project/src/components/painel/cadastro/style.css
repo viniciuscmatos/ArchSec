@@ -1,0 +1,64 @@
+.main-cadastro{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-left: 1px solid #f9f9f9;
+}
+
+.card-cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 85%;
+    background-color: rgb(50, 50, 50);
+    margin-top: 10%;
+    margin-bottom: 15%;
+
+}
+
+.form-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1em;
+    border-top: solid 2px #ff7c31;   
+}
+
+.div-latlog {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-latlong{
+    width: 42%;
+}
+
+.cadastro-input{
+    padding: 1em;
+    border: 0;
+    border: 1px solid #888e8e;
+    border-radius: 1em;
+    outline: none;
+}
+
+.botao-cadastro {
+    background-color: rgb(214, 214, 214);
+    border-radius: 70px;
+    border: 1px;
+    color: rgb(50, 50, 50);
+    font-size: 1.2em;
+    height: 2em;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    transition: ease-in-out 0.3s;
+    margin: 0 1em 2em 0; }
+  
+.botao-cadastro:hover {
+    background: #ff7c31;
+    transition: ease-in-out 0.2s;
+    color: white;
+}

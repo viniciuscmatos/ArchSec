@@ -1,0 +1,18 @@
+.botao3 {
+    background-color: rgb(214, 214, 214);
+    border-radius: 70px;
+    border: 1px;
+    color: rgb(50, 50, 50);
+    font-size: 1.2em;
+    height: 2em;
+    margin: 2% 10% 5% 10%;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    transition: ease-in-out 0.3s; }
+  
+  .botao3:hover {
+    background: #ff7c31;
+    transition: ease-in-out 0.2s;
+    color: white;
+  }
